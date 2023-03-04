@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="./Images/LogoM.png">
+    <link rel="stylesheet" href="./Styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Montserrat:wght@300&family=Orbitron&display=swap" rel="stylesheet">
+    <title>MarioAzuaje | Fullstack Developer</title>
+</head>
+
+<body class="m-0 p-0 top-0 w-[100vw] h-[100vh] box-border bg-[#0F1023] overflow-x-hidden">
+    <aside class="w-[9.2%] h-[100%] bg-[#181818] flex flex-col items-center space-y-[45%] fixed">
+        <a href="./index.html" class="w-[100%] h-[22%] bg-gradient-to-b from-pink-500 to-yellow-500 hover:from-[#03ADCC] hover:via-[#1D9AD6] hover:to-[#2170B9] flex justify-center items-center flex-col cursor-pointer">
+            <img src="./Images/LogoM.png" alt="">
+            <h1 class="text-white text-center text-[1.1rem] pb-[15%]"  style="font-family: 'Bitter', sans-serif;">
+                Mario Azuaje
+            </h1>
+            <p class="text-white text-center text-[0.7rem] leading-[97%]"  style="font-family: 'Montserrat', sans-serif;">
+                Web Developer en formación
+            </p>
+        </a>
+
+        <div class="w-[100%] h-[35%] flex flex-col text-center text-[#819096] font-[590]" style="font-family: 'Montserrat', sans-serif;">
+            <a href="./About_me.html" class="w-[100%] h-[25%] flex items-center border-t-[1px] border-b-[1px] border-[#282828] hover:text-[#03ADCC] cursor-pointer">
+                Sobre mí / About me
+            </a>
+
+            <a href="./Skills.html" class="w-[100%] h-[25%] flex items-center border-b-[1px] border-[#282828] hover:text-[#03ADCC] cursor-pointer">
+                Habilidades / Skills
+            </a>
+
+            <a href="./Projects.html" class="w-[100%] h-[25%] flex items-center border-b-[1px] border-[#282828] hover:text-[#03ADCC] cursor-pointer">
+                Trabajos / Projects
+            </a>
+
+            <a href="./Contact.html" class="w-[100%] h-[25%] flex items-center border-b-[1px] border-[#282828] hover:text-pink-500 cursor-pointer">
+                Contáctame / Contact
+            </a>
+        </div>
+
+        <div class="w-[100%] h-[10%] flex flex-row justify-center space-x-[13%]">
+            <a href="https://github.com/MarioAzuaje" class="w-[35%] h-[54%] rounded-[100%] bg-gray-400 flex items-center hover:bg-white">
+                <img src="./Images/Github.png" alt="" class="pt-[35%] scale-[0.8]">
+            </a>
+
+            <a href="https://www.linkedin.com/in/mario-azuaje-90a93121a/" class="w-[30%] h-[50%] bg-gray-400 flex justify-center items-center hover:bg-[#0077B5] mt-[2%]">
+                <img src="./Images/Linkedin.png" alt="" class="scale-[1.08]">
+            </a>
+        </div>
+    </aside>
+
+    <main class="w-[100%] m-0 h-full flex flex-row pl-[9.2%] justify-center items-center space-x-[3%]" style="font-family: 'Bitter', sans-serif;">
+        <div class="w-[60%] h-[80%] shadow-2xl shadow-black rounded-[20px] px-[4%] pb-[3%] flex flex-col text-white animate__animated animate__fadeInDown">
+            <div class="w-[100%] h-[40%] text-[1.7rem] flex flex-col items-center">
+                <h1 class="text-[3.1rem] text-yellow-500">
+                    Send me a message!
+                </h1>
+
+                <p class="text-center">
+                    Got a question or proposal? Go ahead
+                    <br>
+                    and let me know.
+                <p>
+            </div>
+
+            <div class="w-[100%] h-[60%] flex flex-col items-center space-y-[5%]">
+                <div class="w-[100%] h-[27%] justify-between flex flex-row">
+                    <div class="w-[45%] h-[100%] flex flex-col">
+                        <p class="w-[100%] h-[35%]">
+                            Your Name
+                        </p>
+
+                        <input name="inputs" type="text" placeholder="Enter your name" class="w-[100%] h-[64.9%] bg-[#0F1023]">
+
+                        <div name="linea" class="w-[100%] h-[0.1%] bg-white rounded-[999px]">
+                        </div>
+                    </div>
+
+                    <div name="divEmail" class="w-[45%] h-[100%] flex flex-col">
+                        <p class="w-[100%] h-[35%]">
+                            Email Address
+                        </p>
+
+                        <input name="inputs" type="text" placeholder="Enter your email address" class="w-[100%] h-[64.9%] bg-[#0F1023]">
+
+                        <div name="linea" class="w-[100%] h-[0.1%] bg-white rounded-[999px]">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-[100%] h-[27%] flex flex-col">
+                    <p class="w-[100%] h-[35%]">
+                        Your Message
+                    </p>
+
+                    <input name="inputs" type="text" placeholder="Hi!, I think we need to design something, how soon you can hop on to discuss this?" class="w-[100%] h-[64.9%] bg-[#0F1023]">
+
+                    <div name="linea" class="w-[100%] h-[0.1%] bg-white rounded-[999px]">
+                    </div>
+                </div>
+
+                <div class="w-[100%] h-[20%] flex justify-center items-center">
+                    <button id="borderstyle" name="boton_enviar" class="absolute z-0 overflow-hidden w-[20%] h-[10%] bg-black flex justify-center items-center">
+                        <p name="texto_enviar" class="w-[95%] h-[95%] text-[1.5rem] z-10 bg-black flex justify-center items-center">
+                            Send
+                        </p>
+
+                        <img name="imagen_enviar" src="" alt="" class="scale-[0.6]">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-[30%] h-[80%] flex flex-col items-center animate__animated animate__fadeInRight">
+            <div class="w-[100%] h-[20%] flex justify-center">
+                <img src="./Images/email.png" alt="" class="scale-[0.5] mr-[8%]">
+            </div>
+
+            <p class="w-[100%] h-[15%] text-white text-[1.8rem] text-center text-yellow-500">
+                Also you can find
+                <br>
+                me at
+            </p>
+
+            <div class="w-[100%] h-[65%] flex flex-row">
+                <div class="w-[45%] h-[100%]">
+                    <a href="" class="w-[100%] h-[40%]">
+                        <img id="zoomsocialmedia" src="./Images/discord.png" alt="" class="w-[100%] h-[40%] scale-[0.7]">
+                    </a>
+
+                    <a href="https://wa.link/ongjv2" class="w-[100%] h-[40%]">
+                        <img id="zoomsocialmedia" src="./Images/whatsapp.png" alt="" class="w-[100%] h-[40%] scale-[0.7]">
+                    </a>
+                </div>
+
+                <div class="w-[0.5%] h-[100%] mx-[5%] flex justify-center items-center">
+                    <div class="w-[100%] h-[90%] bg-white">
+                    </div>
+                </div>
+
+                <div class="w-[45%] h-[100%]">
+                    <a href="https://www.instagram.com/marioaazuaje/?igshid=YmMyMTA2Ma" class="w-[100%] h-[40%]">
+                        <img id="zoomsocialmedia" src="./Images/Instagram.png" alt="" class="w-[100%] h-[40%] scale-[0.7]">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./LineaColores.js"></script>
+<script src="./Enviado.js"></script>
+<script src="./Formulario_Regex.js"></script>
+
+<footer class="w-[100vw] h-[18vh] m-0 p-0 t-0 pl-[9%] bg-[#181818]">
+    <div class="w-[100%] h-[100%] flex flex-row justify-center items-center border-[#1D1D1D]">
+        <div class="w-[30%] h-[100%] flex flex-row justify-center items-center p-[2%] space-x-[5%] text-[#819096]">
+            <img src="./Images/mail.png" alt="" class="w-[15%] h-[65%]">
+
+            <a href="mailto:andresmario62@gmail.com" class="text-[1.2rem] pb-[2%] flex justify-center items-center underline cursor-pointer hover:text-white">
+                    andresmario62@gmail.com
+            </a>
+        </div>
+
+        <div class="w-[0.1%] h-[90%] mx-[2%] bg-[#AFB2B7] flex justify-center items-center">
+        </div>
+
+        <div class="w-[30%] h-[100%] flex flex-col p-[2%] text-[1.2rem] text-[#819096] space-y-[3%]">
+            <div class="flex flex-row space-x-[2%]">
+                <p class="text-white">
+                    ⚪
+                </p>
+
+                <a href="" class="pb-[2%] underline cursor-pointer hover:text-white">
+                    Terms & Conditions
+                </a>
+            </div>
+
+            <div class="flex flex-row space-x-[2%]">
+                <p class="text-white">
+                    ⚪
+                </p>
+
+                <a href="" class="pb-[2%] underline cursor-pointer hover:text-white">
+                    Curriculum
+                </a>
+            </div>
+        </div>
+
+        <div class="w-[0.1%] h-[90%] mx-[2%] bg-[#AFB2B7] flex justify-center items-center">
+        </div>
+
+        <div class="w-[30%] h-[100%] flex justify-center items-center">
+            <img src="./Images/Logo.png" alt="">
+        </div>
+    </div>
+</footer>
+</html>

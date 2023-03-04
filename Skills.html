@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./Styles.css">
+    <link rel="icon" href="./Images/LogoM.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>MarioAzuaje | Fullstack Developer</title>
+</head>
+
+<body class="m-0 p-0 top-0 w-[100vw] h-[100vh] box-border bg-[#0F1023] overflow-x-hidden">
+    <aside class="w-[9.2%] h-[100%] bg-[#181818] flex flex-col items-center space-y-[45%] fixed">
+        <a href="./index.html" class="w-[100%] h-[22%] bg-gradient-to-b from-pink-500 to-yellow-500 hover:from-[#03ADCC] hover:via-[#1D9AD6] hover:to-[#2170B9] flex justify-center items-center flex-col">
+            <img src="./Images/LogoM.png" alt="">
+            <h1 class="text-white text-center text-[1.1rem] pb-[15%]"  style="font-family: 'Bitter', sans-serif;">
+                Mario Azuaje
+            </h1>
+            <p class="text-white text-center text-[0.7rem] leading-[97%]"  style="font-family: 'Montserrat', sans-serif;">
+                Web Developer en formación
+            </p>
+        </a>
+
+        <div class="w-[100%] h-[35%] flex flex-col text-center text-[#819096] font-[590]" style="font-family: 'Montserrat', sans-serif;">
+            <a href="./About_me.html" class="w-[100%] h-[25%] flex items-center border-t-[1px] border-b-[1px] border-[#282828] hover:text-[#03ADCC]">
+                Sobre mí / About me
+            </a>
+
+            <a href="./Skills.html" class="w-[100%] h-[25%] flex items-center border-b-[1px] border-[#282828] text-[#03ADCC] hover:text-white">
+                Habilidades / Skills
+            </a>
+
+            <a href="./Projects.html" class="w-[100%] h-[25%] flex items-center border-b-[1px] border-[#282828] hover:text-[#03ADCC]">
+                Trabajos / Projects
+            </a>
+
+            <a href="./Contact.html" class="w-[100%] h-[25%] flex items-center border-b-[1px] border-[#282828] hover:text-pink-500">
+                Contáctame / Contact
+            </a>
+        </div>
+
+        <div class="w-[100%] h-[10%] flex flex-row justify-center space-x-[13%]">
+            <a href="https://github.com/MarioAzuaje" class="w-[35%] h-[54%] rounded-[100%] bg-gray-400 flex items-center hover:bg-white">
+                <img src="./Images/Github.png" alt="" class="pt-[35%] scale-[0.8]">
+            </a>
+
+            <a href="https://www.linkedin.com/in/mario-azuaje-90a93121a/" class="w-[30%] h-[50%] bg-gray-400 flex justify-center items-center hover:bg-[#0077B5] mt-[2%]">
+                <img src="./Images/Linkedin.png" alt="" class="scale-[1.08]">
+            </a>
+        </div>
+    </aside>
+
+    <main class="w-[100%] h-full m-0 flex flex-row pl-[9%]" style="font-family: 'Bitter', sans-serif;">
+        <div class="w-[40%] h-[100%] flex flex-col p-[8%]">
+            <div class="w-[100%] h-[100%] space-y-[12%]">
+                <div class="w-[100%] h-[15%] flex flex-col space-y-[6%]">
+                    <div class="w-[100%] h-[40%] flex flex-row text-white font-medium text-[1.5rem]">
+                        <p class="w-[80%] h-[100%]">
+                            HTML
+                        </p>
+
+                        <p name="Porcentaje" class="text-transparent w-[20%] h-[100%] pl-[7%] pt-[5%] text-[1.3rem]">
+                            60%
+                        </p>
+                    </div>
+
+                    <div class="w-[100%] h-[10%] rounded-[999px] bg-black">
+                        <div class="w-[60%] h-[100%]">
+                            <div name="Barra_C" id="Barra_Creciente" class="w-[0%] h-[100%] bg-[#FC490B] rounded-[999px]">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="w-[100%] h-[15%] flex flex-col space-y-[6%]">
+                    <div class="w-[100%] h-[40%] flex flex-row text-white font-medium text-[1.5rem]">
+                        <p class="w-[80%] h-[100%]">
+                            CSS
+                        </p>
+
+                        <p name="Porcentaje" class="text-transparent w-[20%] h-[100%] pl-[7%] pt-[5%] text-[1.3rem]">
+                            50%
+                        </p>
+                    </div>
+
+                    <div class="w-[100%] h-[10%] rounded-[999px] bg-black">
+                        <div class="w-[50%] h-[100%]">
+                            <div name="Barra_C" id="Barra_Creciente" class="w-[0%] h-[100%] bg-[#005CEF] rounded-[999px]">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="w-[100%] h-[15%] flex flex-col space-y-[6%]">
+                    <div class="w-[100%] h-[40%] flex flex-row text-white font-medium text-[1.5rem]">
+                        <p class="w-[80%] h-[100%]">
+                            Javascript
+                        </p>
+
+                        <p name="Porcentaje" class="text-transparent w-[20%] h-[100%] pl-[7%] pt-[5%] text-[1.3rem]">
+                            50%
+                        </p>
+                    </div>
+
+                    <div class="w-[100%] h-[10%] rounded-[999px] bg-black">
+                        <div class="w-[50%] h-[100%]">
+                            <div name="Barra_C" id="Barra_Creciente" class="w-[0%] h-[100%] bg-[#FFDF00] rounded-[999px]">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="w-[100%] h-[15%] flex flex-col space-y-[6%]">
+                    <div class="w-[100%] h-[40%] flex flex-row text-white font-medium text-[1.5rem]">
+                        <p class="w-[80%] h-[100%]">
+                            C++
+                        </p>
+
+                        <p name="Porcentaje" class="text-transparent w-[20%] h-[100%] pl-[7%] pt-[5%] text-[1.3rem]">
+                            70%
+                        </p>
+                    </div>
+
+                    <div class="w-[100%] h-[10%] rounded-[999px] bg-black">
+                        <div class="w-[70%] h-[100%]">
+                            <div name="Barra_C" id="Barra_Creciente" class="w-[0%] h-[100%] bg-[#0086D4] rounded-[999px]">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="w-[100%] h-[15%] flex flex-col space-y-[6%]">
+                    <div class="w-[100%] h-[40%] flex flex-row text-white font-medium text-[1.5rem]">
+                        <p class="w-[80%] h-[100%]">
+                            C#
+                        </p>
+
+                        <p name="Porcentaje" class="text-transparent w-[20%] h-[100%] pl-[7%] pt-[5%] text-[1.3rem]">
+                            70%
+                        </p>
+                    </div>
+
+                    <div class="w-[100%] h-[10%] rounded-[999px] bg-black">
+                        <div class="w-[70%] h-[100%]">
+                            <div name="Barra_C" id="Barra_Creciente" class="w-[0%] h-[100%] bg-[#B14796] rounded-[999px]">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-[60%] h-[100%] mr-0 flex flex-col justify-center bg-black px-[5%] py-[3%]]">
+            <div class="w-[100%] h-[45%] flex flex-col text-white">
+                <div class="w-[100%] h-[20%] text-[3.1rem] text-right animate__animated animate__fadeInRightBig">
+                    <h1>
+                        Hard Skills
+                    </h1>
+                </div>
+
+                <div class="w-[100%] h-[80%] flex flex-row justify-center items-center">
+                    <div id="Plegar_div" class="w-[45%] h-[100%] flex flex-col justify-center space-y-[10%]">
+                        <div class="w-[100%] h-[20%] flex flex-row animate__animated animate__fadeInRightBig">
+                            <div class="w-[15%] h-[100%] flex justify-center items-center mr-[5%]">
+                                <img src="./Images/HTMLicon.png" alt="" id="zoom" class="scale-[1.1]">
+                            </div>
+
+                            <div class="w-[5%] h-[100%] bg-[#FC490B]">
+                            </div>
+
+                            <div id="Plegar_div" class="w-[0%] h-[100%] text-center text-[#FC490B] text-[2rem] font-medium bg-[#1D1D1D] flex justify-center items-center rounded-r-[9999px]">
+                                <p id="Plegar_texto" class="text-transparent cursor-default">
+                                    HTML
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w-[100%] h-[20%] flex flex-row animate__animated animate__fadeInRight animate__delay-1s">
+                            <div class="w-[15%] h-[100%] flex justify-center items-center mr-[5%]">
+                                <img src="./Images/CSSicon.png" alt="" id="zoom" class="scale-[1.1]">
+                            </div>
+
+                            <div class="w-[5%] h-[100%] bg-[#005CEF]">
+                            </div>
+
+                            <div id="Plegar_div" class="w-[0%] h-[100%] text-center text-[#005CEF] text-[2rem] font-medium bg-[#1D1D1D] flex justify-center items-center rounded-r-[9999px]">
+                                <p id="Plegar_texto" class="text-transparent cursor-default">
+                                    CSS
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w-[100%] h-[20%] flex flex-row animate__animated animate__fadeInRightBig animate__delay-1s">
+                            <div class="w-[15%] h-[100%] flex justify-center items-center mr-[5%]">
+                                <img src="./Images/TAILWINDicon.png" alt="" id="zoom" class="scale-[1.1]">
+                            </div>
+
+                            <div class="w-[5%] h-[100%] bg-[#10B8B9]">
+                            </div>
+
+                            <div id="Plegar_div" class="w-[0%] h-[100%] text-center text-[#10B8B9] text-[2rem] font-medium bg-[#1D1D1D] flex justify-center items-center rounded-r-[9999px]">
+                                <p id="Plegar_texto" class="text-transparent cursor-default">
+                                    TAILWIND
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="Plegar_div" class="w-[45%] h-[100%] flex flex-col justify-center space-y-[10%]">
+                        <div class="w-[100%] h-[20%] flex flex-row animate__animated animate__fadeInRightBig">
+                            <div class="w-[15%] h-[100%] flex justify-center items-center mr-[5%]">
+                                <img src="./Images/JSicon.png" alt="" id="zoom" class="scale-[1.1]">
+                            </div>
+
+                            <div class="w-[5%] h-[100%] bg-[#FFDF00]">
+                            </div>
+
+                            <div id="Plegar_div" class="w-[0%] h-[100%] text-center text-[#FFDF00] text-[2rem] font-medium bg-[#1D1D1D] flex justify-center items-center rounded-r-[9999px]">
+                                <p id="Plegar_texto" class="text-transparent cursor-default">
+                                    JAVASCRIPT
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w-[100%] h-[20%] flex flex-row animate__animated animate__fadeInRightBig animate__delay-1s">
+                            <div class="w-[15%] h-[100%] flex justify-center items-center mr-[5%]">
+                                <img src="./Images/C++icon.png" alt="" id="zoom" class="scale-[1.1]">
+                            </div>
+
+                            <div class="w-[5%] h-[100%] bg-[#0086D4]">
+                            </div>
+
+                            <div id="Plegar_div" class="w-[0%] h-[100%] text-center text-[#0086D4] text-[2rem] font-medium bg-[#1D1D1D] flex justify-center items-center rounded-r-[9999px]">
+                                <p id="Plegar_texto" class="text-transparent cursor-default">
+                                    C++
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w-[100%] h-[20%] flex flex-row animate__animated animate__fadeInRight animate__delay-1s">
+                            <div class="w-[15%] h-[100%] flex justify-center items-center mr-[5%]">
+                                <img src="./Images/C++++icon.png" alt="" id="zoom" class="scale-[1.1]">
+                            </div>
+
+                            <div class="w-[5%] h-[100%] bg-[#B14796]">
+                            </div>
+
+                            <div id="Plegar_div" class="w-[0%] h-[100%] text-center text-[#B14796] text-[2rem] font-medium bg-[#1D1D1D] flex justify-center items-center rounded-r-[9999px]">
+                                <p id="Plegar_texto" class="text-transparent cursor-default">
+                                    C#
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-[100%] h-[0.5%] bg-gradient-to-l from-white to-yellow-500 my-[3%] animate__animated animate__fadeInRightBig animate__delay-1s">
+            </div>
+
+            <div class="w-[100%] h-[45%] flex flex-col text-right text-white animate__animated animate__fadeInUpBig animate__delay-2s animate_fas2">
+                <h1 class="w-[100%] h-[20%] text-[3.1rem] text-yellow-500">
+                    Soft Skills
+                </h1>
+
+                <div class="w-[100%] h-[80%] flex flex-row justify-center items-center">
+                    <div class="w-[45%] h-[100%] flex flex-col justify-center space-y-[10%] mr-[10%]">
+                        <div class="w-[100%] h-[20%] flex flex-row">
+                            <div class="w-[80%] h-[100%] flex items-center justify-end mr-[5%] text-[1.2rem]">
+                                <p>
+                                    Responsabilidad
+                                    <br>
+                                    <span class="text-yellow-500">Responsability</span>
+                                </p>
+                            </div>
+
+                            <div class="w-[20%] h-[100%] flex justify-center items-center">
+                                <img src="./Images/Responsibilityicon.png" alt="" id="zoom" class="w-[100%] h-[100%]">
+                            </div>
+                        </div>
+
+                        <div class="w-[100%] h-[20%] flex flex-row">
+                            <div class="w-[80%] h-[100%] flex items-center justify-end mr-[5%] text-[1.2rem]">
+                                <p>
+                                    Adaptabilidad
+                                    <br>
+                                    <span class="text-yellow-500">daptability</span>
+                                </p>
+                            </div>
+
+                            <div class="w-[20%] h-[100%] flex justify-center items-center">
+                                <img src="./Images/Adaptation.png" alt="" id="zoom" class="w-[100%] h-[100%]">
+                            </div>
+                        </div>
+
+                        <div class="w-[100%] h-[20%] flex flex-row">
+                            <div class="w-[80%] h-[100%] flex items-center justify-end mr-[5%] text-[1.2rem]">
+                                <p>
+                                    Creatividad
+                                    <br>
+                                    <span class="text-yellow-500">Creativity</span>
+                                </p>
+                            </div>
+
+                            <div class="w-[20%] h-[100%] flex justify-center items-center">
+                                <img src="./Images/Creativityicon.png" alt="" id="zoom" class="w-[100%] h-[100%]">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-[45%] h-[100%] flex flex-col justify-center space-y-[10%]">
+                        <div class="w-[100%] h-[20%] flex flex-row">
+                            <div class="w-[80%] h-[100%] flex items-center justify-end mr-[5%] text-[1.2rem]">
+                                <p>
+                                    Puntualidad
+                                    <br>
+                                    <span class="text-yellow-500">Time Management</span>
+                                </p>
+                            </div>
+
+                            <div class="w-[20%] h-[100%] flex justify-center items-center">
+                                <img src="./Images/Time.png" alt="" id="zoom" class="w-[100%] h-[100%]">
+                            </div>
+                        </div>
+
+                        <div class="w-[100%] h-[20%] flex flex-row">
+                            <div class="w-[80%] h-[100%] flex items-center justify-end mr-[5%] text-[1.2rem]">
+                                <p>
+                                    Trabajo en Equipo
+                                    <br>
+                                    <span class="text-yellow-500">Teamwork</span>
+                                </p>
+                            </div>
+
+                            <div class="w-[20%] h-[100%] flex justify-center items-center">
+                                <img src="./Images/Teamworkicon.png" alt="" id="zoom" class="w-[100%] h-[100%]">
+                            </div>
+                        </div>
+
+                        <div class="w-[100%] h-[20%] flex flex-row">
+                            <div class="w-[80%] h-[100%] flex items-center justify-end mr-[5%] text-[1.2rem]">
+                                <p>
+                                    Colaboración
+                                    <br>
+                                    <span class="text-yellow-500">Collaboration</span>
+                                </p>
+                            </div>
+
+                            <div class="w-[20%] h-[100%] flex justify-center items-center">
+                                <img src="./Images/Collaborationicon.png" alt="" id="zoom" class="w-[100%] h-[100%]">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+<script src="./PorcentajesCambiantes.js"></script>
+
+<footer class="w-[100vw] h-[18vh] m-0 p-0 t-0 pl-[9%] bg-[#181818]">
+    <div class="w-[100%] h-[100%] flex flex-row justify-center items-center border-[#1D1D1D]">
+        <div class="w-[30%] h-[100%] flex flex-row justify-center items-center p-[2%] space-x-[5%] text-[#819096]">
+            <img src="./Images/mail.png" alt="" class="w-[15%] h-[65%]">
+
+            <a href="mailto:andresmario62@gmail.com" class="text-[1.2rem] pb-[2%] flex justify-center items-center underline cursor-pointer hover:text-white">
+                    andresmario62@gmail.com
+            </a>
+        </div>
+
+        <div class="w-[0.1%] h-[90%] mx-[2%] bg-[#AFB2B7] flex justify-center items-center">
+        </div>
+
+        <div class="w-[30%] h-[100%] flex flex-col p-[2%] text-[1.2rem] text-[#819096] space-y-[3%]">
+            <div class="flex flex-row space-x-[2%]">
+                <p class="text-white">
+                    ⚪
+                </p>
+
+                <a href="" class="pb-[2%] underline cursor-pointer hover:text-white">
+                    Terms & Conditions
+                </a>
+            </div>
+
+            <div class="flex flex-row space-x-[2%]">
+                <p class="text-white">
+                    ⚪
+                </p>
+
+                <a href="" class="pb-[2%] underline cursor-pointer hover:text-white">
+                    Curriculum
+                </a>
+            </div>
+        </div>
+
+        <div class="w-[0.1%] h-[90%] mx-[2%] bg-[#AFB2B7] flex justify-center items-center">
+        </div>
+
+        <div class="w-[30%] h-[100%] flex justify-center items-center">
+            <img src="./Images/Logo.png" alt="">
+        </div>
+    </div>
+</footer>
+</html>
